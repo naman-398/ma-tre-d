@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+:root {
+    /*font-size*/
+    --fs-sm: 12px;
+    --fs-1sm: 14px;
+    --fs-2sm: 14px;
+    --fs-3sm: 14px;
+    --fs-4sm: 23.83px;
+    --fs-md: 18px;
+    --fs-lg: 30px;
+    --fs-1lg: 48px;
+    --fs-2lg: 35px;
+    /*font-family*/
+    --ff-worksans: 'Work Sans', sans-serif;
+    /*font-weight*/
+    --fw-4: 400;
+    --fw-5: 500;
+    --fw-6: 600;
+    --fw-7: 700;
+    --fw-8: 800;
+    /*color*/
+    --black: #000;
+    --white: #FFF;
+    --light1: #FFFDFD;
+    --lightblack: #7A7A7A;
+}
+
+.fw-5 {
+    font-weight: 500;
+}
+
+.fs-1lg {
+    font-size: var(--fs-1lg);
+}
+
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-1sm {
+    font-size: var(--fs-1sm);
+}
+
+.fs-2sm {
+    font-size: var(--fs-2sm);
+}
+
+.fs-3sm {
+    font-size: var(--fs-3sm);
+}
+
+.fs-4sm {
+    font-size: var(--fs-4sm);
+}
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+.fs-lg {
+    font-size: var(--fs-lg);
+}
+
+.fs-2lg {
+    font-style: var(--fs-1lg)
+}
+
+.ff-work {
+    font-family: var(--ff-worksans);
+}
+
+.fw-4 {
+    font-weight: var(--fw-4);
+}
+
+.fw-6 {
+    font-weight: var(--fw-6);
+}
+
+.fw-7 {
+    font-weight: var(--fw-7)
+}
+
+.fw-8 {
+    font-weight: var(--fw-8);
+}
+
+.color-black {
+    color: var(--black);
+}
+
+.bg-black {
+    background-color: var(--black);
+}
+
+.color-white {
+    color: var(--white);
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+
+.color-light1 {
+    color: var(--light1);
+}
+
+.bg-light1 {
+    background-color: var(--light1);
+}
+
+.color-lightblack {
+    color: var(--lightblack);
+}
+@media (min-width:400px) {
+    :root {
+        /*font-size*/
+        --fs-sm: 12px;
+        --fs-1sm: 14px;
+        --fs-2sm: 14px;
+        --fs-3sm: 16px;
+        --fs-4sm: 23.83px;
+        --fs-md: 18px;
+        --fs-lg: 35px;
+        --fs-1lg: 48px;
+        --fs-2lg: 40px;
+    }
+}
+@media (min-width:576px) {
+    :root {
+        /*font-size*/
+        --fs-sm: 12px;
+        --fs-1sm: 14px;
+        --fs-2sm: 14px;
+        --fs-3sm: 20px;
+        --fs-4sm: 23.83px;
+        --fs-md: 18px;
+        --fs-lg: 35px;
+        --fs-1lg: 48px;
+        --fs-2lg: 41px;
+    }
+}
+@media (min-width:768px) {
+    :root {
+        /*font-size*/
+        --fs-sm: 12px;
+        --fs-1sm: 14px;
+        --fs-2sm: 14px;
+        --fs-3sm: 20px;
+        --fs-4sm: 23.83px;
+        --fs-md: 18px;
+        --fs-lg: 35px;
+        --fs-1lg: 48px;
+        --fs-2lg: 55px;
+    }
+}
+@media (min-width:992px) {
+    :root {
+        /*font-size*/
+        --fs-sm: 12px;
+        --fs-1sm: 14px;
+        --fs-2sm: 16px;
+        --fs-3sm: 20px;
+        --fs-4sm: 23.83px;
+        --fs-md: 24px;
+        --fs-lg: 40px;
+        --fs-1lg: 60px;
+    }
+}
+
+
