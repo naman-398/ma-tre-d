@@ -10,7 +10,7 @@
     background-image: url(../images/Group\ 48095503.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: 100% 100%;
     min-height: 135vh;
 }
 
@@ -36,8 +36,8 @@
 }
 
 .svg-position {
-       bottom: -32%;
-       left: 18%;
+    bottom: -32%;
+    left: 18%;
 }
 
 .man-img {
@@ -96,7 +96,7 @@
     background-image: url(../images/bg-img1.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .big-box {
@@ -148,7 +148,7 @@
 }
 
 .box:hover svg path {
-    fill: #F8AC58;
+    fill: url("#paint0_linear_18848_2023");
 }
 
 .sign {
@@ -166,12 +166,16 @@
     max-width: 1080px;
     border-radius: 8px;
     box-shadow: 0px 4px 66px 0px rgba(0, 0, 0, 0.04);
-    padding: 34px 36px 0px 0px;
+    padding: 34px 36px;
 }
 
 .slider-img {
     max-width: 443px;
     max-height: 448px;
+}
+
+.resize-none {
+    resize: none;
 }
 
 .buy {
@@ -395,7 +399,7 @@
     background-image: url(../images/footer-bg-img.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .footer-para {
@@ -420,9 +424,11 @@
     width: 100%;
     margin-top: 34px;
 }
-.outline-none{
+
+.outline-none {
     outline: none !important;
 }
+
 .py-15 {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -458,13 +464,6 @@
         bottom: 27%;
         left: 4%;
     }
-}
-
-@media (max-width: 1100px) {
-    .bg-img {
-        min-height: 100vh;
-    }
-
 }
 
 @media (max-width: 992px) {
@@ -553,5 +552,11 @@
 
     .bg-sm-black {
         background-color: var(--black);
+    }
+}
+
+@media (max-width: 450px) {
+    .slider-card {
+        padding: 0;
     }
 }

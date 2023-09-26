@@ -24,6 +24,11 @@
     --white: #FFF;
     --light1: #FFFDFD;
     --lightblack: #7A7A7A;
+    --nav-bg: #FFF0E9;
+}
+
+.nav-bg {
+    background-color: var(--nav-bg);
 }
 
 .fw-5 {
@@ -113,6 +118,7 @@
 .color-lightblack {
     color: var(--lightblack);
 }
+
 @media (min-width:400px) {
     :root {
         /*font-size*/
@@ -127,6 +133,7 @@
         --fs-2lg: 40px;
     }
 }
+
 @media (min-width:576px) {
     :root {
         /*font-size*/
@@ -141,6 +148,7 @@
         --fs-2lg: 41px;
     }
 }
+
 @media (min-width:768px) {
     :root {
         /*font-size*/
@@ -155,6 +163,7 @@
         --fs-2lg: 55px;
     }
 }
+
 @media (min-width:992px) {
     :root {
         /*font-size*/
@@ -168,5 +177,3 @@
         --fs-1lg: 60px;
     }
 }
-
-
